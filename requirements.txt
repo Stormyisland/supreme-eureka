@@ -1,5 +1,5 @@
 langchain 
-lanchane_community
+langchain_community
 pandasai
 ollama
 streamlit
