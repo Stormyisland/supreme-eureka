@@ -1,3 +1,4 @@
+
 import streamlit as st
 from langchain_community.llms import Ollama
 import pandas as pd
@@ -6,7 +7,7 @@ from pandasai import SmartDataFrame
 llm = Ollama(model="llama3")
 
 
-st.title("Data Analisis with PandasAI")
+st.title("Data Analysis with PandasAI")
 
 uploader_file = st.file_uploader("Upload a CSV file",type =["csv"])
 
